@@ -1,0 +1,148 @@
+editing: true
+debug: false
+basic:
+  name: Sai Ananthula
+  address: Austin, TX
+  email: askowshik@outlook.com
+  phone: +1 (470)-815-6620
+  websites:
+    - https://linkedin.com/in/ask7
+    - https://saikowshik007.github.io
+
+objective: A highly skilled Software Engineer with expertise in cloud computing, cybersecurity, and full-stack development. Proven track record in developing and optimizing enterprise-level applications, implementing cloud solutions, and enhancing system performance. Proficient in Java, Python, AWS, and various development frameworks with a strong focus on scalable and secure solutions.
+
+education:
+  - school: Georgia State University
+    degrees:
+      - names:
+          - M.S. Computer Science
+        gpa: 3.9
+        dates: August 2021-May 2023
+  - school: GITAM University
+    degrees:
+      - names:
+          - B.S. Computer Science
+        dates: June 2017-May 2021
+        gpa: 3.9
+
+experiences:
+  - company: International Business Machines (IBM)
+    skip_name: false
+    location: Austin, TX
+    titles:
+      - name: Software Engineer (Cloud and Cyber security products)
+        startdate: January 2024
+        enddate: Present
+    highlights:
+      - Upgraded IBM Maas360 VPN (Mobile Device Management tool) from v2.5.6 to 2.6.10, enhancing security for enterprise clients (e.g., NASA, Pfizer) and optimizing tunnel speed by 20% via MTU packet-size optimization.
+      - Designed a distributed notification system using AWS IoT Core, Apache Kafka, and Spring Boot, reducing device verification latency from 500ms to 350ms (30% improvement).
+      - Reduced status update processing load by 50% by implementing shared subscription patterns in distributed systems.
+      - Led Open Shift Container Platform (OCP) development and QA environments, implementing automated testing frameworks and CI/CD pipelines that reduced system downtime by 40% across US and India teams.
+
+  - company: Global Payments Inc
+    skip_name: false
+    location: Columbus, GA
+    titles:
+      - name: Software Engineer
+        startdate: January 2023
+        enddate: December 2023
+    highlights:
+      - Implemented Java/Spring Boot microservices for enterprise applications, improving data processing speed by 30% (from 10k to 13k transactions/sec) and system efficiency by 50% via RESTful API optimizations.
+      - Built a transaction pipeline using Apache Airflow, Kubernetes, and Docker, increasing batch-processing throughput by 60% (1.2M to 2M transactions/day).
+      - Automated AWS cloud infrastructure (EC2, S3, Lambda) deployments using Jenkins CI/CD pipelines, cutting operational costs by 30% ($150k/year saved).
+
+  - company: Georgia State University
+    skip_name: false
+    location: Atlanta, GA
+    titles:
+      - name: Graduate Software Engineer (Research)
+        startdate: August 2021
+        enddate: December 2022
+    highlights:
+      - Published IEEE paper on a TensorFlow-based collision detection algorithm, improving accuracy by 80% (from 75% to 95%) and securing $1.6M in research grants.
+      - Developed a low-power IoT system using Python and MQTT, reducing device power consumption by 30% (from 12W to 8.4W).
+      - Automated grading system using Python/REST APIs, reducing evaluation time from 10 hours to 30 minutes per class (95% reduction).
+
+  - company: Global Payments Inc
+    skip_name: false
+    location: Atlanta, GA
+    titles:
+      - name: Software Engineer Intern
+        startdate: June 2022
+        enddate: August 2022
+    highlights:
+      - Engineered high-performance REST APIs using Spring Boot, improving system efficiency by 60% (response time reduced from 200ms to 80ms).
+      - Optimized Correspondence API lookup time by 40% (from 500ms to 300ms) via JUnit/Mockito testing and query tuning.
+
+projects:
+  - name: GSU IoT ThingsBoard | Kafka, Python, AWS
+    technologies: Python, Flutter, Raspberry Pi, PostgreSQL, Kafka, Rest API
+    link: https://www.github.com/username/project
+    hyperlink: false
+    show_link: false
+    highlights:
+      - Built a scalable IoT platform processing 1M+ daily sensor readings, improving data ingestion efficiency by 70% (1s to 0.3s/request).
+
+  - name: Smart Parking System | Java, Design Patterns
+    technologies: DEVS Java, Gradle, Git, design patterns
+    link: https://www.github.com/username/project
+    hyperlink: False
+    show_link: False
+    highlights:
+      - Reduced parking wait times by 40% using queue optimization and Abstract Factory pattern, improving space utilization by 60%.
+
+  - name: Database Hits Optimizer | Python, Redis, MongoDB
+    technologies: Python, MongoDB, Redis, SQL, NoSQL
+    link: https://www.github.com/username/project
+    hyperlink: False
+    show_link: False
+    highlights:
+      - Reduced database hits by 60% (from 10k/day to 4k/day) using a hybrid Redis-MongoDB caching layer, cutting query latency by 80% (200ms to 40ms).
+
+skills:
+  - category: Technical
+    skills:
+      - Java
+      - Python
+      - JavaScript
+      - SQL
+      - CSS
+      - HTML
+      - Oracle
+      - PostgreSQL
+      - Redis
+      - MySQL
+      - MongoDB
+      - SpringBoot
+      - REST API
+      - React.js
+      - Airflow
+      - Flutter
+      - Mockito
+      - AWS
+      - Lambda
+      - Kafka
+      - Spark
+      - Docker
+      - Jenkins
+      - Git
+      - Maven
+      - GCP
+      - JUnit
+      - Mockito
+      - Postman
+      - SoapUI
+      - Jenkins
+      - Maven
+      - Gradle
+  - category: Non-technical
+    skills:
+      - Agile Methodologies
+      - Project Management
+      - Team Leadership
+      - Problem Solving
+      - Technical Documentation
+      - Code Review
+      - SDLC
+      - Product Engineering
+      - Cross-functional Collaboration
