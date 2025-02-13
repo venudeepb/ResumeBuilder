@@ -1,99 +1,75 @@
 editing: true
 debug: false
 basic:
-  name: Sai Ananthula
+  name: Venu Deep Bommidi
   address: Austin, TX
-  email: askowshik@outlook.com
-  phone: +1 (470)-815-6620
+  email: bommidi.4@wright.edu
+  phone: +1 (937)-956-2966
   websites:
-    - https://linkedin.com/in/ask7
-    - https://saikowshik007.github.io
+    - https://linkedin.com/in/venudeep
 
-objective: A highly skilled Software Engineer with expertise in cloud computing, cybersecurity, and full-stack development. Proven track record in developing and optimizing enterprise-level applications, implementing cloud solutions, and enhancing system performance. Proficient in Java, Python, AWS, and various development frameworks with a strong focus on scalable and secure solutions.
+objective: Results-driven Software Developer with 3+ years of experience in building scalable backend systems and microservices. Skilled in Python, Java, AWS, and real-time data processing with Kafka and Docker. Proven track record in optimizing system performance, enhancing security, and leading seamless project transitions in agile environments.
 
 education:
-  - school: Georgia State University
+  - school: Wright State University
     degrees:
       - names:
           - M.S. Computer Science
-        gpa: 3.9
-        dates: August 2021-May 2023
-  - school: GITAM University
+        gpa: 3.4
+        dates: May 2021-Apr 2023
+  - school: Jawaharlal Nehru Technological University
     degrees:
       - names:
-          - B.S. Computer Science
-        dates: June 2017-May 2021
-        gpa: 3.9
+          - Bachelor of Technology
+        dates: Aug 2015-Apr 2019
+        gpa: 3.8
 
 experiences:
-  - company: International Business Machines (IBM)
+  - company: Infosys
     skip_name: false
     location: Austin, TX
     titles:
-      - name: Software Engineer (Cloud and Cyber security products)
-        startdate: January 2024
+      - name: Software Engineer
+        startdate: Aug 2023
         enddate: Present
     highlights:
-      - Upgraded IBM Maas360 VPN (Mobile Device Management tool) from v2.5.6 to 2.6.10, enhancing security for enterprise clients (e.g., NASA, Pfizer) and optimizing tunnel speed by 20% via MTU packet-size optimization.
-      - Designed a distributed notification system using AWS IoT Core, Apache Kafka, and Spring Boot, reducing device verification latency from 500ms to 350ms (30% improvement).
-      - Reduced status update processing load by 50% by implementing shared subscription patterns in distributed systems.
-      - Led Open Shift Container Platform (OCP) development and QA environments, implementing automated testing frameworks and CI/CD pipelines that reduced system downtime by 40% across US and India teams.
+      - Engineered a rule-based fraud detection platform using Python, Kafka, and ThreatMetrix, processing over 1M+ user interactions daily with real-time monitoring and anomaly detection.
+      - Developed features for blacklisting suspicious IPs, devices, and user accounts, enhancing fraud detection accuracy by 25%.
+      - Optimized CI/CD workflows with Jenkins and Docker, reducing deployment failures by 30% and increasing system stability.
+      - Solely managed the transition of project operations from the US to India, conducting knowledge transfer sessions and ensuring seamless project continuity with zero downtime.
 
-  - company: Global Payments Inc
+  - company: Tata Consultancy Services (American Express)
     skip_name: false
-    location: Columbus, GA
+    location: Bengaluru, India
     titles:
-      - name: Software Engineer
-        startdate: January 2023
-        enddate: December 2023
+      - name: Associate Systems Engineer
+        startdate: Feb 2020
+        enddate: Apr 2021
     highlights:
-      - Implemented Java/Spring Boot microservices for enterprise applications, improving data processing speed by 30% (from 10k to 13k transactions/sec) and system efficiency by 50% via RESTful API optimizations.
-      - Built a transaction pipeline using Apache Airflow, Kubernetes, and Docker, increasing batch-processing throughput by 60% (1.2M to 2M transactions/day).
-      - Automated AWS cloud infrastructure (EC2, S3, Lambda) deployments using Jenkins CI/CD pipelines, cutting operational costs by 30% ($150k/year saved).
-
-  - company: Georgia State University
-    skip_name: false
-    location: Atlanta, GA
-    titles:
-      - name: Graduate Software Engineer (Research)
-        startdate: August 2021
-        enddate: December 2022
-    highlights:
-      - Published IEEE paper on a TensorFlow-based collision detection algorithm, improving accuracy by 80% (from 75% to 95%) and securing $1.6M in research grants.
-      - Developed a low-power IoT system using Python and MQTT, reducing device power consumption by 30% (from 12W to 8.4W).
-      - Automated grading system using Python/REST APIs, reducing evaluation time from 10 hours to 30 minutes per class (95% reduction).
-
-  - company: Global Payments Inc
-    skip_name: false
-    location: Atlanta, GA
-    titles:
-      - name: Software Engineer Intern
-        startdate: June 2022
-        enddate: August 2022
-    highlights:
-      - Engineered high-performance REST APIs using Spring Boot, improving system efficiency by 60% (response time reduced from 200ms to 80ms).
-      - Optimized Correspondence API lookup time by 40% (from 500ms to 300ms) via JUnit/Mockito testing and query tuning.
+      - Contributed to the development of the Global Servicing Portal (GSP) for American Express, supporting 500K+ active users for account management and financial transactions.
+      - Integrated multiple services like AmexTravel.com, Global Pay, and Global Lounge Collection, improving cross-platform functionality and user engagement.
+      - Optimized backend APIs to reduce data retrieval time by 20%, enhancing user experience and application performance.
 
 projects:
-  - name: GSU IoT ThingsBoard | Kafka, Python, AWS
-    technologies: Python, Flutter, Raspberry Pi, PostgreSQL, Kafka, Rest API
-    link: https://www.github.com/username/project
+  - name: Real-Time Distributed File System | Python, Kubernetes, AWS S3
+    technologies: Python, Kubernetes, AWS S3
     hyperlink: false
     show_link: false
     highlights:
-      - Built a scalable IoT platform processing 1M+ daily sensor readings, improving data ingestion efficiency by 70% (1s to 0.3s/request).
+      - Designed and implemented a distributed file system using Python and Kubernetes, enabling eﬃcient file storage and retrieval across multiple nodes.
+      - Integrated the system with AWS S3 for scalable cloud storage, improving data availability and redundancy.
 
-  - name: Smart Parking System | Java, Design Patterns
-    technologies: DEVS Java, Gradle, Git, design patterns
-    link: https://www.github.com/username/project
+  - name: Custom Redis Implementation | Python
+    technologies: Python
     hyperlink: False
     show_link: False
     highlights:
-      - Reduced parking wait times by 40% using queue optimization and Abstract Factory pattern, improving space utilization by 60%.
+      - Developed a custom Redis server to replicate in-memory data handling and improve data access speed for caching operations.
+      - Implemented persistence mechanisms to enable recovery from crashes, ensuring 99.9% uptime.
+      - Optimized memory usage with eﬃcient data structures, reducing storage overhead by 20%.
 
   - name: Database Hits Optimizer | Python, Redis, MongoDB
     technologies: Python, MongoDB, Redis, SQL, NoSQL
-    link: https://www.github.com/username/project
     hyperlink: False
     show_link: False
     highlights:
@@ -104,11 +80,9 @@ skills:
     skills:
       - Java
       - Python
-      - JavaScript
       - SQL
       - CSS
       - HTML
-      - Oracle
       - PostgreSQL
       - Redis
       - MySQL
@@ -116,9 +90,6 @@ skills:
       - SpringBoot
       - REST API
       - React.js
-      - Airflow
-      - Flutter
-      - Mockito
       - AWS
       - Lambda
       - Kafka
@@ -127,13 +98,10 @@ skills:
       - Jenkins
       - Git
       - Maven
-      - GCP
       - JUnit
       - Mockito
       - Postman
       - SoapUI
-      - Jenkins
-      - Maven
       - Gradle
   - category: Non-technical
     skills:
